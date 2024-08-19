@@ -56,19 +56,19 @@ const Footer = () => {
                 <h3 className="text-center text-white">¡Síguenos!</h3>
                 <nav>
                     <div className="grid grid-flow-col gap-4">
-                        <a>
+                        <a href="/">
                             <TbHandFinger className="text-xl mr-2" />
                         </a>
-                        <a>
+                        <a href="/">
                             <RiTwitterLine className="text-xl mr-2" />
                         </a>
-                        <a>
+                        <a href="/">
                             <FaFacebookSquare className="text-xl mr-2" />
                         </a>
-                        <a>
+                        <a href="/">
                             <FiInstagram className="text-xl mr-2" />
                         </a>
-                        <a>
+                        <a href="/"> 
                             <FaYoutube className="text-xl mr-2" />
                         </a>
                     </div>

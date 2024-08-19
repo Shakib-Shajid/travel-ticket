@@ -3,7 +3,7 @@ import Link from "next/link";
 const FAQ = () => {
     return (
         <div>
-            <div className="max-w-7xl mx-auto w-2/3 bg-[#f9f1f5] p-4">
+            <div className="max-w-7xl md:mx-auto w-full  md:w-2/3 bg-[#f9f1f5] p-4">
                 <h3 className="collapse p-4 text-lg">Preguntas frecuentes sobre Smart</h3>
                 <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">
                     <input type="checkbox" name="my-accordion-2" />
@@ -45,7 +45,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <p className="text-center my-20">El programa Smart de Atrápalo es una suscripción con renovación anual automática <br />
+            <p className="text-center my-20 p-4 md:p-0">El programa Smart de Atrápalo es una suscripción con renovación anual automática <br />
             Consulta los <Link href="/"><span className="text-[#F2384B]">Términos y condiciones</span></Link>.</p>
         </div>
     );

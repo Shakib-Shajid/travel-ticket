@@ -9,22 +9,22 @@ const Offer = () => {
                 <p>Savings vary depending on the amount and number of passengers booked. Examples of savings <br /> between the basic and Smart fare:</p>
             </div>
 
-            <div className="flex justify-center">
-                <div className="stats shadow w-2/4 my-2">
+            {/* 1st */}
+            <div className="hidden md:block">
+                <div className="stats shadow w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/save_1.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Round trip flight</div>
                                 <div className="text-sm font-bold">Madrid - Frankfurt</div>
-                                <div className="text-xs">3 adults</div>
+                                <div className="text-xs">3 adultos</div>
                             </div>
                         </div>
-
                     </div>
 
                     <div className="stat place-items-center ">
-                        <div className="">Basic</div>
+                        <div className="">Básica</div>
                         <div className="">1.030 EUR</div>
                     </div>
 
@@ -35,28 +35,70 @@ const Offer = () => {
 
                     <div className="stat place-items-center p-2">
                         <div className="bg-green-300 p-3 rounded-lg text-green-800">
-                            <div className="">Saving</div>
+                            <div className="">Ahorro</div>
                             <div className="">-75 EUR</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center">
+
+            {/* for small */}
+
+            <div className="block md:hidden">
+                <div className="stats shadow my-3 w-72 ">
+                    <div className="flex flex-col ">
+
+                        <div className="stat px-3 py-2">
+                            <div className="flex gap-2">
+                                <Image src="/save_1.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <div className="text-start  my-auto">
+                                    <div className="text-xs">Vuelo ida/vuelta</div>
+                                    <div className="text-sm font-bold">Madrid - Frankfurt</div>
+                                    <div className="text-xs">3 adultos</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="flex flex-row text-base">
+                            <div className="stat p-2">
+                                <div className="">Básica</div>
+                                <div className="">1.030 EUR</div>
+                            </div>
+
+                            <div className="stat p-2">
+                                <div className=""><button className="btn btn-xs">Smart</button></div>
+                                <div className="">955 EUR</div>
+                            </div>
+
+                            <div className="stat m-2 p-1 bg-green-300  rounded-xl text-green-800">
+                                <div className="">
+                                    <div className="">Ahorro</div>
+                                    <div className="">-75 EUR</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* 2nd */}
+            <div className="hidden md:block ">
                 <div className="stats shadow w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/save_2.jpg" alt="" width="130" height="100" className="rounded-xl" />
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Activities</div>
-                                <div className="text-sm font-bold">Spa with massage at <br /> Eurostar Sitges *****</div>
-                                <div className="text-xs">2 adults</div>
+                                <div className="text-sm font-bold">Spa con masaje en <br /> Eurostar Sitges *****</div>
+                                <div className="text-xs">2 adultos</div>
                             </div>
                         </div>
-
                     </div>
 
                     <div className="stat place-items-center ">
-                        <div className="">Basic</div>
+                        <div className="">Básica</div>
                         <div className="">159 EUR</div>
                     </div>
 
@@ -67,13 +109,55 @@ const Offer = () => {
 
                     <div className="stat place-items-center p-2">
                         <div className="bg-green-300 p-3 rounded-lg text-green-800">
-                            <div className="">Saving</div>
+                            <div className="">Ahorro</div>
                             <div className="">-32 EUR</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center">
+            {/* for small */}
+
+            <div className="block md:hidden">
+                <div className="stats shadow my-3 w-72 ">
+                    <div className="flex flex-col ">
+
+                        <div className="stat px-3 py-2">
+                            <div className="flex gap-2">
+                                <Image src="/save_2.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <div className="text-start  my-auto">
+                                    <div className="text-xs">Actividades</div>
+                                    <div className="text-sm font-bold">Spa con masaje en Eurostar Sitges *****</div>
+                                    <div className="text-xs">2 adultos</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="flex flex-row text-base">
+                            <div className="stat p-2">
+                                <div className="">Básica</div>
+                                <div className="">159 EUR</div>
+                            </div>
+
+                            <div className="stat p-2">
+                                <div className=""><button className="btn btn-xs">Smart</button></div>
+                                <div className="">127 EUR</div>
+                            </div>
+
+                            <div className="stat m-2 p-1 bg-green-300  rounded-xl text-green-800">
+                                <div className="">
+                                    <div className="">Ahorro</div>
+                                    <div className="">-32 EUR</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* 3th */}
+            <div className="hidden md:block ">
                 <div className="stats shadow w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
@@ -81,14 +165,14 @@ const Offer = () => {
                             <div className="text-start  my-auto">
                                 <div className="text-xs">BIRD</div>
                                 <div className="text-sm font-bold">Madrid - Puertollano</div>
-                                <div className="text-xs">2 adults</div>
+                                <div className="text-xs">2 adultos</div>
                             </div>
                         </div>
 
                     </div>
 
                     <div className="stat place-items-center ">
-                        <div className="">Basic</div>
+                        <div className="">Básica</div>
                         <div className="">101 EUR</div>
                     </div>
 
@@ -99,13 +183,55 @@ const Offer = () => {
 
                     <div className="stat place-items-center p-2">
                         <div className="bg-green-300 p-3 rounded-lg text-green-800">
-                            <div className="">Saving</div>
+                            <div className="">Ahorro</div>
                             <div className="">-30 EUR</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center">
+            {/* for small */}
+
+            <div className="block md:hidden">
+                <div className="stats shadow my-3 w-72 ">
+                    <div className="flex flex-col ">
+
+                        <div className="stat px-3 py-2">
+                            <div className="flex gap-2">
+                                <Image src="/save_3.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <div className="text-start  my-auto">
+                                    <div className="text-xs">AVE</div>
+                                    <div className="text-sm font-bold">Madrid - Puertollano</div>
+                                    <div className="text-xs">2 adultos</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="flex flex-row text-base">
+                            <div className="stat p-2">
+                                <div className="">Básica</div>
+                                <div className="">101 EUR</div>
+                            </div>
+
+                            <div className="stat p-2">
+                                <div className=""><button className="btn btn-xs">Smart</button></div>
+                                <div className="">71 EUR</div>
+                            </div>
+
+                            <div className="stat m-2 p-1 bg-green-300  rounded-xl text-green-800">
+                                <div className="">
+                                    <div className="">Ahorro</div>
+                                    <div className="">-30 EUR</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* 4th */}
+            <div className="hidden md:block ">
                 <div className="stats shadow w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
@@ -113,14 +239,14 @@ const Offer = () => {
                             <div className="text-start  my-auto">
                                 <div className="text-xs">Accommodation</div>
                                 <div className="text-sm font-bold">Hotel Sol Costa <br /> Daurada****, Salou</div>
-                                <div className="text-xs">4 adults, 6 nights</div>
+                                <div className="text-xs">4 adultos, 6 noches</div>
                             </div>
                         </div>
 
                     </div>
 
                     <div className="stat place-items-center ">
-                        <div className="">Basic</div>
+                        <div className="">Básica</div>
                         <div className="">1.556 EUR</div>
                     </div>
 
@@ -131,17 +257,105 @@ const Offer = () => {
 
                     <div className="stat place-items-center p-2">
                         <div className="bg-green-300 p-3 rounded-lg text-green-800">
-                            <div className="">Saving</div>
+                            <div className="">Ahorro</div>
                             <div className="">-25 EUR</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            
+            {/* for small */}
 
-            
+            <div className="block md:hidden">
+                <div className="stats shadow my-3 w-72 ">
+                    <div className="flex flex-col ">
+
+                        <div className="stat px-3 py-2">
+                            <div className="flex gap-2">
+                                <Image src="/save_1.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <div className="text-start  my-auto">
+                                    <div className="text-xs">Alojamiento</div>
+                                    <div className="text-sm font-bold">Hotel Sol Costa Daurada****, Salou</div>
+                                    <div className="text-xs">4 adultos, 6 noches</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="flex flex-row text-base">
+                            <div className="stat p-2">
+                                <div className="">Básica</div>
+                                <div className="">1.556 EUR</div>
+                            </div>
+
+                            <div className="stat p-2">
+                                <div className=""><button className="btn btn-xs">Smart</button></div>
+                                <div className="">1.531 EUR</div>
+                            </div>
+
+                            <div className="stat m-2 p-1 bg-green-300  rounded-xl text-green-800">
+                                <div className="">
+                                    <div className="">Ahorro</div>
+                                    <div className="">-25 EUR</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <p>Practice</p>
+
+
+            {/* for small */}
+
+            {/* <div className="block md:hidden">
+                <div className="stats shadow my-3 w-72 ">
+                    <div className="flex flex-col ">
+
+                        <div className="stat px-3 py-2">
+                            <div className="flex gap-2">
+                                <Image src="/save_1.jpg" alt="" width="120" height="120" className="rounded-xl" />
+                                <div className="text-start  my-auto">
+                                    <div className="text-xs">Round trip flight</div>
+                                    <div className="text-sm font-bold">Spa con masaje en Eur</div>
+                                    <div className="text-xs">3 adults</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="flex flex-row text-base">
+                            <div className="stat p-2">
+                                <div className="">Basic</div>
+                                <div className="">1.030 EUR</div>
+                            </div>
+
+                            <div className="stat p-2">
+                                <div className=""><button className="btn btn-xs">Smart</button></div>
+                                <div className="">955 EUR</div>
+                            </div>
+
+                            <div className="stat m-2 p-1 bg-green-300  rounded-xl text-green-800">
+                                <div className="">
+                                    <div className="">Saving</div>
+                                    <div className="">-75 EUR</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> */}
+
+
+
+
+
         </div>
+
+
     );
 };
 

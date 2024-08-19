@@ -10,7 +10,6 @@ const Banner = () => {
                     <Link href="/"><Image src="/logo.png" className="" width="156" height="44" alt="" /></Link>
                 </div>
                 <div
-                    // className="hero min-h-screen absolute top-0 max-w-7xl mx-auto"
                     className="hero h-[700px] md:w-full  relative "
                     style={{
                         backgroundImage: "url(/banner.png)",
@@ -34,5 +33,3 @@ const Banner = () => {
 };
 
 export default Banner;
-// from-[#F2384B] to-[#d1b2ff]
-// bg-gradient-to-r from-purple-500 to-pink-500
