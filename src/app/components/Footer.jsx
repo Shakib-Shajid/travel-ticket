@@ -5,6 +5,7 @@ import { FiInstagram } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 
 const Footer = () => {
@@ -13,14 +14,15 @@ const Footer = () => {
             <footer className="footer text-[#CCCCCC] p-10 max-w-7xl mx-auto w-4/6">
                 <nav>
                     <h6 className="text-base font-bold text-white">Atrápalo en el mundo</h6>
-                    <a className="link link-hover">Argentina</a>
-                    <a className="link link-hover">Chile</a>
-                    <a className="link link-hover">Colombia</a>
-                    <a className="link link-hover">Costa Rica</a>
-                    <a className="link link-hover">Guatemala</a>
-                    <a className="link link-hover">México</a>
-                    <a className="link link-hover">Panamá</a>
-                    <a className="link link-hover">Perú</a>
+                    <a className="link link-hover"><span className="fi fi-ar mr-1" />Argentina</a>
+                    <a className="link link-hover"><span className="fi fi-cl mr-1" />Chile</a>
+                    <a className="link link-hover"><span className="fi fi-co mr-1" />Colombia</a>
+                    <a className="link link-hover"><span className="fi fi-cr mr-1" />Costa Rica</a>
+                    <a className="link link-hover"><span className="fi fi-gt mr-1" />Guatemala</a>
+                    <a className="link link-hover"><span className="fi fi-mx mr-1" />México</a>
+                    <a className="link link-hover"><span className="fi fi-pa mr-1" />Panamá</a>
+                    <a className="link link-hover"><span className="fi fi-pe mr-1" />Perú</a>
+                
                 </nav>
                 <nav>
                     <h6 className="text-base font-bold text-white">Productos</h6>
@@ -73,7 +75,7 @@ const Footer = () => {
                 </nav>
 
                 <Link href="/"><div className="flex gap-2 p-4 border border-gray-400 text-[#CCCCCC] rounded-xl hover:border-white">
-                    <Image src="/brandApp.png" className="w-8 h-10" alt="" height="12" width="12" />
+                    <Image src="/brandApp.png" className="w-7 h-10" alt="" height="12" width="12" />
                     <p>Descárgate gratis la <br /> app de Atrápalo</p>
                 </div></Link>
                 <aside>
