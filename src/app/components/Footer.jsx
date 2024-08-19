@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className="bg-neutral">
             <footer className="footer text-[#CCCCCC] p-10 max-w-7xl mx-auto w-4/6">
-                <nav>
+                <nav className="hidden md:block">
                     <h6 className="text-base font-bold text-white">Atrápalo en el mundo</h6>
                     <a className="link link-hover"><span className="fi fi-ar mr-1" />Argentina</a>
                     <a className="link link-hover"><span className="fi fi-cl mr-1" />Chile</a>
@@ -24,14 +24,14 @@ const Footer = () => {
                     <a className="link link-hover"><span className="fi fi-pe mr-1" />Perú</a>
                 
                 </nav>
-                <nav>
+                <nav className="hidden lg:block">
                     <h6 className="text-base font-bold text-white">Productos</h6>
                     <a className="link link-hover">About us</a>
                     <a className="link link-hover">Contact</a>
                     <a className="link link-hover">Jobs</a>
                     <a className="link link-hover">Press kit</a>
                 </nav>
-                <nav>
+                <nav className="hidden md:block">
                     <h6 className="text-base font-bold text-white">Sobre nosotros</h6>
                     <a className="link link-hover">¿Qué es Atrápalo?</a>
                     <a className="link link-hover">Atrápalo Social</a>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </nav>
             </footer>
 
-            <footer className="footer footer-center text-white rounded p-10">
+            <footer className="footer footer-center text-white rounded p-10" >
                 <hr className="max-w-7xl mx-auto w-full border-slate-600" />
 
                 <h3 className="text-center text-white">¡Síguenos!</h3>

@@ -11,7 +11,7 @@ const Offer = () => {
 
             {/* 1st */}
             <div className="hidden md:block">
-                <div className="stats shadow w-2/4 my-3">
+                <div className="stats shadow lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/save_1.jpg" alt="" width="130" height="100" className="rounded-xl" />
@@ -85,7 +85,7 @@ const Offer = () => {
 
             {/* 2nd */}
             <div className="hidden md:block ">
-                <div className="stats shadow w-2/4 my-3">
+                <div className="stats shadow lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/save_2.jpg" alt="" width="130" height="100" className="rounded-xl" />
@@ -158,7 +158,7 @@ const Offer = () => {
 
             {/* 3th */}
             <div className="hidden md:block ">
-                <div className="stats shadow w-2/4 my-3">
+                <div className="stats shadow lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/save_3.jpg" alt="" width="130" height="100" className="rounded-xl" />
@@ -232,7 +232,7 @@ const Offer = () => {
 
             {/* 4th */}
             <div className="hidden md:block ">
-                <div className="stats shadow w-2/4 my-3">
+                <div className="stats shadow lg:w-2/4 my-3">
                     <div className="stat p-3">
                         <div className="flex gap-2">
                             <Image src="/save_4.jpg" alt="" width="130" height="100" className="rounded-xl" />
@@ -304,54 +304,6 @@ const Offer = () => {
                     </div>
                 </div>
             </div>
-
-            <p>Practice</p>
-
-
-            {/* for small */}
-
-            {/* <div className="block md:hidden">
-                <div className="stats shadow my-3 w-72 ">
-                    <div className="flex flex-col ">
-
-                        <div className="stat px-3 py-2">
-                            <div className="flex gap-2">
-                                <Image src="/save_1.jpg" alt="" width="120" height="120" className="rounded-xl" />
-                                <div className="text-start  my-auto">
-                                    <div className="text-xs">Round trip flight</div>
-                                    <div className="text-sm font-bold">Spa con masaje en Eur</div>
-                                    <div className="text-xs">3 adults</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="flex flex-row text-base">
-                            <div className="stat p-2">
-                                <div className="">Basic</div>
-                                <div className="">1.030 EUR</div>
-                            </div>
-
-                            <div className="stat p-2">
-                                <div className=""><button className="btn btn-xs">Smart</button></div>
-                                <div className="">955 EUR</div>
-                            </div>
-
-                            <div className="stat m-2 p-1 bg-green-300  rounded-xl text-green-800">
-                                <div className="">
-                                    <div className="">Saving</div>
-                                    <div className="">-75 EUR</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div> */}
-
-
-
-
 
         </div>
 
