@@ -23,7 +23,7 @@ const Offer = () => {
 
                     </div>
 
-                    <div className="stat place-items-center w-1/3">
+                    <div className="stat place-items-center ">
                         <div className="">Basic</div>
                         <div className="">1.030 EUR</div>
                     </div>
@@ -55,7 +55,7 @@ const Offer = () => {
 
                     </div>
 
-                    <div className="stat place-items-center w-1/3">
+                    <div className="stat place-items-center ">
                         <div className="">Basic</div>
                         <div className="">159 EUR</div>
                     </div>
@@ -87,7 +87,7 @@ const Offer = () => {
 
                     </div>
 
-                    <div className="stat place-items-center w-1/3">
+                    <div className="stat place-items-center ">
                         <div className="">Basic</div>
                         <div className="">101 EUR</div>
                     </div>
@@ -119,7 +119,7 @@ const Offer = () => {
 
                     </div>
 
-                    <div className="stat place-items-center w-1/3">
+                    <div className="stat place-items-center ">
                         <div className="">Basic</div>
                         <div className="">1.556 EUR</div>
                     </div>
