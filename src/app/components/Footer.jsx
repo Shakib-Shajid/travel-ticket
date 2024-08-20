@@ -11,8 +11,8 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 const Footer = () => {
     return (
         <div className="bg-neutral">
-            <footer className="footer text-[#CCCCCC] p-10 max-w-7xl mx-auto w-4/6">
-                <nav className="hidden md:block">
+            <footer className="footer text-[#CCCCCC] py-10 lg:p-10 max-w-7xl mx-auto m-0">
+                <nav className="hidden md:grid md:p-4  md:mr-10">
                     <h6 className="text-base font-bold text-white">Atrápalo en el mundo</h6>
                     <a className="link link-hover"><span className="fi fi-ar mr-1" />Argentina</a>
                     <a className="link link-hover"><span className="fi fi-cl mr-1" />Chile</a>
@@ -24,14 +24,23 @@ const Footer = () => {
                     <a className="link link-hover"><span className="fi fi-pe mr-1" />Perú</a>
                 
                 </nav>
-                <nav className="hidden lg:block">
+                <nav className="hidden lg:grid">
                     <h6 className="text-base font-bold text-white">Productos</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <a className="link link-hover">Entradas</a>
+                    <a className="link link-hover">Actividades</a>
+                    <a className="link link-hover">Vuelos</a>
+                    <a className="link link-hover">Trenes</a>
+                    <a className="link link-hover">Hoteles</a>
+                    <a className="link link-hover">Paquetes</a>
+                    <a className="link link-hover">Vuelo+Hotel</a>
+                    <a className="link link-hover">Cruceros</a>
+                    <a className="link link-hover">Coches</a>
+                    <a className="link link-hover">Vale Regalo</a>
+                    <a className="link link-hover">Atrapapuntos</a>
+                    <a className="link link-hover">Atrápalo Empresas</a>
+                    <a className="link link-hover">Atrápalo Smart</a>
                 </nav>
-                <nav className="hidden md:block">
+                <nav className="hidden md:p-4 md:grid md:mr-5">
                     <h6 className="text-base font-bold text-white">Sobre nosotros</h6>
                     <a className="link link-hover">¿Qué es Atrápalo?</a>
                     <a className="link link-hover">Atrápalo Social</a>
@@ -42,7 +51,7 @@ const Footer = () => {
                     <a className="link link-hover">Privacidad y cookies</a>
                     <a className="link link-hover">Aviso legal</a>
                 </nav>
-                <nav>
+                <nav className="mx-auto md:p-4 md:mx-0">
                     <h6 className="text-base font-bold text-white">¿Dudas? Contáctanos</h6>
                     <a className="link link-hover">Mis reservas</a>
                     <a className="link link-hover">Ir al Centro de ayuda</a>
