@@ -4,9 +4,11 @@ const Quality = () => {
     return (
         <div className="my-10">
             <h2 className="text-4xl text-center font-bold text-[#F2384B] my-5">Unirse a Smart es muy sencillo</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full lg:w-2/3 mx-auto md:w-fit">
-                {/* card 1 */}
-                <div className="card bg-base-100 w-80 shadow-xl border-2 border-gray-200 ">
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full lg:w-2/3 mx-auto md:w-fit"> */}
+                <div className="flex flex-col md:flex-row flex-wrap gap-4 justify-center w-full md:w-11/12 lg:w-3/4 mx-auto">
+                
+                    {/* card 1 */}
+                    <div className="card bg-base-100 mx-auto w-72 md:w-80 shadow-xl border-2 border-gray-200 ">
                         <div className="h-full pt-5 absolute top-0">
                             <div className="rounded-r-full border-2 h-16 w-16 bg-[#f9f1f5]  flex items-center justify-center">
                                 <span className="text-2xl font-semibold text-[#946079]">1</span>
@@ -18,11 +20,11 @@ const Quality = () => {
                         <div className="card-body text-center text-sm">
                             <p>Busca un vuelo, un tren, un hotel o una actividad en Atrápalo.</p>
                         </div>
-                </div>
+                    </div>
 
 
-                {/* card 2 */}
-                <div className="card bg-base-100 w-80 shadow-xl border-2 border-gray-200 ">
+                    {/* card 2 */}
+                    <div className="card bg-base-100 mx-auto w-72 md:w-80 shadow-xl border-2 border-gray-200 ">
                         <div className="h-full pt-5 absolute top-0">
                             <div className="rounded-r-full border-2 h-16 w-16 bg-[#f9f1f5]  flex items-center justify-center">
                                 <span className="text-2xl font-semibold text-[#946079]">2</span>
@@ -34,10 +36,10 @@ const Quality = () => {
                         <div className="card-body text-center text-sm pt-5">
                             <p>Elige la tarifa Smart antes de proceder con el pago.</p>
                         </div>
-                </div>
+                    </div>
 
-                {/* card 3 */}
-                <div className="card bg-base-100 w-80 shadow-xl border-2 border-gray-200 ">
+                    {/* card 3 */}
+                    <div className="card bg-base-100 mx-auto w-72 md:w-80 shadow-xl border-2 border-gray-200 ">
                         <div className="h-full pt-5 absolute top-0">
                             <div className="rounded-r-full border-2 h-16 w-16 bg-[#f9f1f5]  flex items-center justify-center">
                                 <span className="text-2xl font-semibold text-[#946079]">3</span>
@@ -49,8 +51,8 @@ const Quality = () => {
                         <div className="card-body text-center text-sm pt-5">
                             <p>Finaliza la reserva y disfruta de los beneficios Smart durante 12 meses.</p>
                         </div>
+                    </div>
                 </div>
-            </div>
 
 
         </div>

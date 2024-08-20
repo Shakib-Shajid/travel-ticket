@@ -6,11 +6,13 @@ const Banner = () => {
         <div className="bg-[#f9f1f5] pb-3">
             <div className="max-w-7xl mx-auto">
 
-                <div className="navbar z-10 absolute max-w-7xl mx-auto">
+                <div className="navbar md:z-10 md:absolute max-w-7xl mx-auto">
                     <Link href="/"><Image src="/logo.png" className="" width="156" height="44" alt="" /></Link>
                 </div>
                 <div
-                    className="hero h-[700px] md:w-full  relative "
+                    className="hero 
+                    min-h-screen
+                    md:w-full  md:relative object-scale-down"
                     style={{
                         backgroundImage: "url(/banner.png)",
                     }}>
@@ -21,12 +23,11 @@ const Banner = () => {
                             <p className="mb-5 text-xl text-[#222222]">
                                 La solución para ahorrar cientos de euros con tus reservas en Atrápalo.
                             </p>
-                            <p className="bg-[#DFF3EB] font-semibold w-2/4 mx-auto text-[#027D49]">Prueba gratis 30 días</p>
+                            <p className="bg-[#DFF3EB] font-semibold w-2/3 p-2 rounded-lg md:w-2/4 mx-auto text-[#027D49]">Prueba gratis 30 días</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
     );

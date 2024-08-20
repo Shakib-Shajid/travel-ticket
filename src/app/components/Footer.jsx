@@ -59,10 +59,10 @@ const Footer = () => {
                 </nav>
             </footer>
 
-            <footer className="footer footer-center text-white rounded p-10" >
+            <footer className="footer footer-center text-white rounded lg:p-10" >
                 <hr className="max-w-7xl mx-auto w-full border-slate-600" />
 
-                <h3 className="text-center text-white">¡Síguenos!</h3>
+                <h3 className="text-center text-lg text-white">¡Síguenos!</h3>
                 <nav>
                     <div className="grid grid-flow-col gap-4">
                         <a href="/">
