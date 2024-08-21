@@ -9,7 +9,7 @@ const Banner = () => {
         <div className="bg-[#f9f1f5] pb-3">
             <div className="max-w-7xl mx-auto">
 
-                <div className="navbar md:z-10 md:absolute max-w-7xl mx-auto">
+                <div className="navbar md:z-10 md:absolute max-w-7xl mx-auto flex justify-center md:justify-start">
                     <Link href="/"><Image src="/logo.png" className="" width="156" height="44" alt="" /></Link>
                 </div>
                 <div
@@ -21,22 +21,17 @@ const Banner = () => {
                     }}>
                     <div className="hero-content text-center">
                         <div className="max-w-md">
-                            <h1 className="mb-5 text-xl md:text-4xl font-bold text-[#F2384B] md:mt-20 lg:mt-3">Conoce la nueva forma de viajar más por menos</h1>
+                            <h1 className="mb-5 text-xl md:text-3xl font-bold text-[#F2384B] md:mt-20 lg:mt-3 uppercase gradient-color">Conoce la nueva <br className="block md:hidden"/> forma <br className="hidden md:block"/> de viajar <br className="block md:hidden" /> más por menos</h1>
 
-                            {/* ............................................
-
-
-                            ............................................. */}
 
 
                             <div className="flex justify-center items-center">
-                                <div className="h-32  md:w-2/3 rounded-full bg-gradient-to-r from-red-500 to-purple-700 flex justify-center items-center px-4">
-                                    <div className="mb-6 mt-3 bg-white h-24  md:w-96 rounded-full flex justify-center items-center  ">
-                                        <span className="text-6xl font-extrabold pb-4 p-5 gradient-color" >Smart</span>
+                                <div className="h-24 md:h-32 w-70 md:w-2/3 rounded-full bg-gradient-to-r from-red-500 to-purple-700 flex justify-center items-center px-4">
+                                    <div className="mb-6 mt-3 bg-white h-16 md:h-24 w-70 md:w-96 rounded-full flex justify-center items-center  ">
+                                        <span className="text-5xl md:text-7xl font-extrabold pb-7 p-5 gradient-color" >Smart</span>
                                     </div>
                                 </div>
                             </div>
-                            {/* ......................................................................................... */}
 
 
 

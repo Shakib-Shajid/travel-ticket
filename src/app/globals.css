@@ -9,7 +9,7 @@ html {
 
 /* text */
 .gradient-color {
-  font-size: 72px;
+  /* font-size: 72px; */
   background: -webkit-linear-gradient(#EF4444, #7E22CE);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
