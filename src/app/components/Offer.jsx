@@ -4,6 +4,11 @@ const Offer = () => {
     return (
         <div className="w-full bg-gradient-to-r from-red-500 to-purple-500 text-center my-10">
 
+            {/* ...................................................... */}
+            <Image src="/offer_1.png" alt="" width="250" height="150" className="relative -top-10" />
+            {/* ...................................................... */}
+
+
             <div className="py-10  text-white">
                 <h3 className="text-3xl my-5">How much can you save with Smart</h3>
                 <p>Savings vary depending on the amount and number of passengers booked. Examples of savings <br /> between the basic and Smart fare:</p>
@@ -305,6 +310,12 @@ const Offer = () => {
                 </div>
             </div>
 
+            {/* ........................................................................ */}
+            <div className="flex justify-end">
+                <Image src="/offer_2.png" alt="" width="250" height="150" className="relative -bottom-10 right-0 " />
+            </div>
+
+            {/* ........................................................................ */}
         </div>
 
 
