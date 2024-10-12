@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const FAQ = () => {
     return (
-        <div className="p-4">
+        <div className="p-4 font-open_sans">
             <div className="max-w-7xl md:mx-auto w-full lg:w-2/3 bg-[#f9f1f5] rounded-2xl p-4 ">
                 <h3 className="collapse p-4 text-lg">Preguntas frecuentes sobre Smart</h3>
                 <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">

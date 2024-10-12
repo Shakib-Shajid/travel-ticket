@@ -35,10 +35,10 @@ const Banner = () => {
 
 
 
-                            <p className="mb-5 text-lg my-2 md:text-xl text-[#222222]">
+                            <p className="mb-5 text-lg my-2 md:text-xl text-[#222222] font-open_sans">
                                 La solución para ahorrar cientos de euros con tus reservas en Atrápalo.
                             </p>
-                            <p className="bg-[#DFF3EB] font-semibold w-2/3 p-2 rounded-lg md:w-2/4 mx-auto text-[#027D49]">Prueba gratis 30 días</p>
+                            <p className="bg-[#DFF3EB] font-semibold w-2/3 p-2 rounded-lg md:w-2/4 mx-auto text-[#027D49] font-open_sans">Prueba gratis 30 días</p>
 
 
                             <Link href="#card">

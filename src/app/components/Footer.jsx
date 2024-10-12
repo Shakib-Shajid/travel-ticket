@@ -10,7 +10,7 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const Footer = () => {
     return (
-        <div className="bg-neutral">
+        <div className="bg-neutral font-open_sans">
             <footer className="footer text-[#CCCCCC] py-10 lg:p-10 max-w-7xl mx-auto m-0">
                 <nav className="hidden md:grid md:p-4  md:mr-10">
                     <h6 className="text-base font-bold text-white">Atrápalo en el mundo</h6>
