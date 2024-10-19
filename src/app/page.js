@@ -11,7 +11,7 @@ export default function Home() {
   return (
    <main className=''>
       <Banner />
-      <Video />
+      {/* <Video /> */}
       <Card />
       <Offer />
       <Free />

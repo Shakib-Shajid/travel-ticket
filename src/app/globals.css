@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
 
 /* text */
 .gradient-color {
@@ -17,6 +21,6 @@ html {
 
 
 /* icon button */
-.icons_color{
+.icons_color {
   background: -webkit-linear-gradient(#EF4444, #7E22CE);
 }
