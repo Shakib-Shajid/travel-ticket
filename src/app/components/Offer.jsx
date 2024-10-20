@@ -5,7 +5,7 @@ const Offer = () => {
         <div className="w-full bg-gradient-to-r from-green-300 to-blue-300 text-center my-10 relative">
 
             {/* ...................................................... */}
-            <Image src="/offer_1.png" alt="" width="100" height="100" className="absolute w-60 h-28 -top-10 md:-left-40 lg:left-0 -left-48" />
+            {/* <Image src="/offer_1.png" alt="" width="100" height="100" className="absolute w-60 h-28 -top-10 md:-left-40 lg:left-0 -left-48" /> */}
 
             {/* ...................................................... */}
 
@@ -312,15 +312,15 @@ const Offer = () => {
             </div>
 
 
-            <div className=" lg:flex justify-end hidden">
+            {/* <div className=" lg:flex justify-end hidden">
                 <Image src="/offer_2.png" alt="" width="100" height="100" className="absolute w-60 h-28 -bottom-10 right-0 " />
-            </div>
+            </div> */}
 
 
             {/* small */}
-            <div className=" lg:hidden">
+            {/* <div className=" lg:hidden">
                 <Image src="/offer_2(1).png" alt="" width="52" height="52" className="absolute md:h-32 md:w-20 -bottom-7 right-0 " />
-            </div>
+            </div> */}
 
 
 

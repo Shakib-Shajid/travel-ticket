@@ -46,7 +46,7 @@ const FAQ = () => {
             </div>
 
             <p className="text-center my-6 md:my-14 lg:my-20 p-4 md:p-0">El programa Smart de Atrápalo es una suscripción con renovación anual automática <br />
-            Consulta los <Link href="/"><span className="text-[#F2384B]">Términos y condiciones</span></Link>.</p>
+            Consulta los <span className="text-[#F2384B]">Términos y condiciones</span>.</p>
         </div>
     );
 };
