@@ -97,7 +97,7 @@ const Banner = () => {
 
             {/* Video and overlay */}
             <div className="absolute inset-0 z-10">
-                <div className="hero-overlay bg-opacity-60 absolute inset-0"></div>
+                <div className="hero-overlay bg-opacity-40 absolute inset-0"></div>
                 <video
                     src="/sea_hill.mp4"
                     loop
@@ -111,8 +111,8 @@ const Banner = () => {
             {/* Hero section (text on top of the video) */}
             <div className="absolute inset-0 z-30 flex items-center justify-center">
                 <div className="hero-content text-neutral-content text-center">
-                    <div className="w-[60%]">
-                        <h1 className="mb-5 text-5xl font-bold">Conoce la nueva forma de viajar más por menos</h1>
+                    <div className="w-[70%] md:w-[60%]">
+                        <h1 className="mb-5 text-3xl md:text-5xl font-bold">Conoce la nueva forma de viajar más por menos</h1>
                         <p className="mb-5">
                             La solución para ahorrar cientos de euros con tus reservas en Atrápalo.
                         </p>

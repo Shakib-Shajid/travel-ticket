@@ -3,23 +3,23 @@ import Link from "next/link";
 const FAQ = () => {
     return (
         <div className="p-4 font-open_sans">
-            <div className="max-w-7xl md:mx-auto w-full lg:w-2/3 bg-[#f9f1f5] rounded-2xl p-4 ">
-                <h3 className="collapse p-4 text-lg">Preguntas frecuentes sobre Smart</h3>
-                <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">
+            <div className="max-w-7xl md:mx-auto w-full lg:w-2/3 bg-gradient-to-r from-green-300 to-blue-300 rounded-2xl p-4 ">
+                <h3 className="collapse p-4 text-lg font-bold">Preguntas frecuentes sobre Smart</h3>
+                <div className="collapse collapse-arrow bg-gradient-to-r from-green-300 to-blue-300 border-b-2 ">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-medium ">¿Cuánto dura la suscripción Smart?</div>
                     <div className="collapse-content text-sm">
                         <p>La suscripción Smart dura 12 meses y en el caso de estar disfrutando del mes de prueba gratis, la suscripción dura en total 13 meses (12 + 1 gratis).</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">
+                <div className="collapse collapse-arrow bg-gradient-to-r from-green-300 to-blue-300 border-b-2 ">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-medium ">¿Cuántas veces puedo usar los descuentos Smart?</div>
                     <div className="collapse-content text-sm">
                         <p>Si eres cliente Smart puedes beneficiarte de los descuentos exclusivos de la tarifa Smart en vuelos, hoteles, paquetes de vuelo+hotel y actividades durante todo el año de forma ilimitada.</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">
+                <div className="collapse collapse-arrow bg-gradient-to-r from-green-300 to-blue-300 border-b-2 ">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-medium ">¿Puedo reservar viajes para otras personas?</div>
                     <div className="collapse-content text-sm">
@@ -28,14 +28,14 @@ const FAQ = () => {
                             También puedes compartir los descuentos Smart con hasta 3 personas más cuando tú no viajes.</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">
+                <div className="collapse collapse-arrow bg-gradient-to-r from-green-300 to-blue-300 border-b-2 ">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-medium ">¿Qué tengo que hacer para renovar mi suscripción?</div>
                     <div className="collapse-content text-sm">
                         <p>No tienes que hacer nada. La renovación se actualiza automáticamente al finalizar el periodo suscrito. Si lo prefieres, también puedes desactivar la renovación automática cuando quieras.</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-[#f9f1f5] border-b-2 ">
+                <div className="collapse collapse-arrow bg-gradient-to-r from-green-300 to-blue-300 border-b-2 ">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-sm font-medium ">¿Puedo cancelar la suscripción Smart?</div>
                     <div className="collapse-content text-sm">

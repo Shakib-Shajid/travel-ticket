@@ -13,11 +13,11 @@ export default function Home() {
     <main className=''>
       <Banner />
       {/* <Video /> */}
-      {/* <Card /> */}
-      {/* <Offer /> */}
-      {/* <Free /> */}
-      {/* <Quality /> */}
-      {/* <FAQ /> */}
+      <Card />
+      <Offer />
+      <Free />
+      <Quality />
+      <FAQ />
       <Join />
       <Footer />
     </main>

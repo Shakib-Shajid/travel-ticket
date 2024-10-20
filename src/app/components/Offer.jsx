@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Offer = () => {
     return (
-        <div className="w-full bg-gradient-to-r from-red-500 to-purple-500 text-center my-10 relative">
+        <div className="w-full bg-gradient-to-r from-green-300 to-blue-300 text-center my-10 relative">
 
             {/* ...................................................... */}
             <Image src="/offer_1.png" alt="" width="100" height="100" className="absolute w-60 h-28 -top-10 md:-left-40 lg:left-0 -left-48" />
 
             {/* ...................................................... */}
 
-            <div className="py-10  text-white">
+            <div className="py-10  text-black">
                 <h3 className="text-3xl my-5">How much can you save with Smart</h3>
                 <p>Savings vary depending on the amount and number of passengers booked. Examples of savings <br /> between the basic and Smart fare:</p>
             </div>
@@ -312,13 +312,13 @@ const Offer = () => {
             </div>
 
 
-            <div className="border-red-600 border lg:flex justify-end hidden">
+            <div className=" lg:flex justify-end hidden">
                 <Image src="/offer_2.png" alt="" width="100" height="100" className="absolute w-60 h-28 -bottom-10 right-0 " />
             </div>
 
 
             {/* small */}
-            <div className="border-red-600 border lg:hidden">
+            <div className=" lg:hidden">
                 <Image src="/offer_2(1).png" alt="" width="52" height="52" className="absolute md:h-32 md:w-20 -bottom-7 right-0 " />
             </div>
 

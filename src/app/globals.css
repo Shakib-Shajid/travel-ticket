@@ -2,12 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  color: var(--foreground);
+  background: var(--background);
   font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
 }
 
 
@@ -23,4 +42,32 @@ body {
 /* icon button */
 .icons_color {
   background: -webkit-linear-gradient(#EF4444, #7E22CE);
+}
+
+
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+    /* Adjust this value for the bounce height */
+  }
+
+  60% {
+    transform: translateY(-5px);
+    /* Adjust this value for the bounce height */
+  }
+}
+
+.bounce {
+  animation: bounce 4s infinite;
+  /* 2 seconds duration, infinite repeat */
 }
