@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoMdCheckmark } from "react-icons/io";
 
 const Plan = () => {
 
@@ -89,10 +90,10 @@ const Plan = () => {
                                 <tr>
                                     <td>Ahorra 100 € en vuelos, hoteles y alquileres de coches</td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                                 {/* row 1 */}
@@ -100,27 +101,27 @@ const Plan = () => {
                                     <td>Reserva con descuentos Prime para 4 amigos y familiares, incluso cuando tú no viajes</td>
                                     <td className="text-3xl font-bold"><span className="ml-2">-</span></td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                                 {/* row 2 */}
                                 <tr>
                                     <td>Cada mes más de 300 € en exclusivos códigos promo en vuelos y hoteles además de tus descuentos Prime</td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                                 {/* row 3 */}
                                 <tr>
                                     <td>Disfruta de las ofertas únicas para miembros y de los Prime Days</td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                             </tbody>
@@ -135,10 +136,10 @@ const Plan = () => {
                                 <tr>
                                     <td>Congela el precio de cualquier vuelo por 1 € y evita pagar más después</td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                                 {/* row 1 */}
@@ -146,7 +147,7 @@ const Plan = () => {
                                     <td>Cancela 2 reservas de vuelo realizadas en la app después de la prueba gratuita. Obtén instantáneamente un reembolso en forma de crédito.</td>
                                     <td className="text-3xl font-bold"><span className="ml-2">-</span></td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                             </tbody>
@@ -161,20 +162,20 @@ const Plan = () => {
                                 <tr>
                                     <td>Atención al cliente VIP: respondemos casi todas las llamadas en 60 segundos o menos</td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                                 {/* row 1 */}
                                 <tr>
                                     <td>Reembolsos en 48h de más de 150 aerolíneas si te cancelan tus vuelos</td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                     <td className="text-2xl font-bold">
-                                        <span className="bg-blue-500 rounded-full px-3 py-1 block mx-auto w-fit">✔</span>
+                                        <IoMdCheckmark className="text-4xl bg-blue-500 rounded-full p-2" />
                                     </td>
                                 </tr>
                             </tbody>

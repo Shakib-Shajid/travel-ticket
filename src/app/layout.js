@@ -28,7 +28,6 @@ export default function RootLayout({ children }) {
       {/* <body className={inter.className}>{children}</body> */}
       <body className={`${open_sans.variable}`}>
         {children}
-        
       </body>
     </html>
   );
