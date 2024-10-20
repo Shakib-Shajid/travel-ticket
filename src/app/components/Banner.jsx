@@ -91,7 +91,7 @@ const Banner = () => {
             {/* Navbar: Fixed and stays at the top */}
             <div className="fixed top-0 left-0 w-full z-50">
                 <div className={`navbar pl-10 md:pl-20 ${isScrolled ? 'bg-gradient-to-r from-green-300 to-blue-300' : 'bg-transparent'}`}>
-                    <Image src="/logo.png" width="4000" height="1000" alt="Logo" className='h-16 w-24' />
+                    <Image src="/logo_1.png" width="150" height="100" alt="Logo" />
                 </div>
             </div>
 
@@ -120,7 +120,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 grid">
-                    <Link href="">
+                    <Link href="#card">
                         <IoIosArrowDropdownCircle className="text-white text-4xl bounce hover:cursor-pointer" />
                     </Link>
                 </div>
